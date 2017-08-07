@@ -9,9 +9,11 @@
     "jest": "^20.0.4"
   },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "watch": "jest --watch"
   },
   "jest": {
+    "testEnvironment": "jest-environment-node",
     "collectCoverageFrom": [
       "*.js"
     ],
